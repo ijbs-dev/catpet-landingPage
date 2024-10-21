@@ -1,0 +1,118 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c97545;
+    color: #333;
+}
+
+.custom-banner-height {
+    height: 40vh; 
+    max-height: 400px; 
+    overflow: hidden; 
+}
+
+.swiper-slide img {
+    width: 80%;  
+    height: 100%; 
+    object-fit: cover; 
+    margin: 0 auto; 
+}
+
+ 
+
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #007bff; 
+    width: 40px;
+    height: 40px;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #0056b3; 
+}
+
+.swiper-pagination-bullet {
+    background: #999; 
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #007bff; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #759cc9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card p {
+    color: #555;
+    font-size: 1rem;
+}
+
+#about {
+    padding: 4rem 0;
+    background-color: #ffffff;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#services, #testimonials {
+    padding: 4rem 0;
+    background-color: #f0f4f8;
+    text-align: center;
+}
+
+#services h2, #testimonials h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#services p, #testimonials p {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 2rem;
+    }
+}
