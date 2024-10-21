@@ -1,6 +1,10 @@
+Aqui está a versão atualizada do `README.md` com a inclusão da explicação sobre o carregamento dinâmico de **Serviços** e **Depoimentos**, além do modelo de visualização de imagens e vídeos:
+
+---
+
 # CatPET - Landing Page Moderna
 
-Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa ficticia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
+Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa fictícia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
 
 ## Índice
 
@@ -12,8 +16,10 @@ Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida p
 - [Como Rodar o Projeto](#como-rodar-o-projeto)
 - [Configuração do EmailJS](#configuração-do-emailjs)
 - [Carregamento Dinâmico de Serviços e Depoimentos](#carregamento-dinâmico-de-serviços-e-depoimentos)
+- [Visualização Detalhada](#visualização-detalhada)
 - [Seções da Página](#seções-da-página)
 - [Customização](#customização)
+
 
 ## Visão Geral
 
@@ -64,10 +70,10 @@ Para rodar este projeto localmente, você precisará de:
 
 1. **Clonar o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/catpet-landing-page.git
+   git clone https://github.com/ijbs-dev/catpet-landing-page.git
    ```
 
-2. **Abrir o arquivo `index.html`** no navegador. 
+2. **Abrir o arquivo `index.html`** no navegador.
 
    - **Dica**: Você pode usar uma extensão de servidor local para evitar problemas de caminhos relativos ou simplesmente abrir o arquivo clicando duas vezes no `index.html`.
 
@@ -116,7 +122,7 @@ Depois de configurar o serviço e o template, você precisará das seguintes cha
 
 ### 4. Integrar o EmailJS no código
 
-No arquivo `js/script.js`, insira as chaves diretamente no código para integrar o EmailJS, sem a necessidade de variáveis de ambiente ou ferramentas como `npm`:
+No arquivo `js/script.js`, insira as chaves diretamente no código para integrar o EmailJS:
 
 ```javascript
 // Inicializar o EmailJS com a chave pública diretamente
@@ -148,7 +154,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 1. **Abrir o arquivo `index.html`**:
    - Vá até o diretório onde o projeto está salvo.
    - Clique duas vezes no arquivo `index.html` para abri-lo no navegador.
-   
+
 2. **Testar o formulário**:
    - Preencha os campos de contato no formulário e clique em "Enviar".
    - Se configurado corretamente, você verá uma mensagem de sucesso, e o email será enviado conforme o template configurado no EmailJS.
@@ -161,11 +167,6 @@ Se o formulário não funcionar corretamente no seu ambiente local, você pode t
 2. Escolha o **Email Service** e o **Email Template** que você deseja testar.
 3. Preencha os campos necessários e clique em "Send Test".
 4. Verifique se o email é enviado corretamente.
-
-### 7. Dicas Importantes
-
-- **Segurança**: Como as chaves estão diretamente no código, é importante ter cuidado ao disponibilizar este projeto publicamente. Embora o EmailJS utilize uma chave pública para o frontend, garanta que a conta do serviço de email está segura e que as permissões de envio estão limitadas de acordo com suas necessidades.
-- **Limites gratuitos**: O EmailJS oferece um plano gratuito, mas com limites de envios mensais. Certifique-se de que o volume de emails do seu site está dentro desses limites ou considere planos pagos para aumentar os envios permitidos.
 
 ## Carregamento Dinâmico de Serviços e Depoimentos
 
@@ -184,7 +185,9 @@ fetch('https://api.thecatapi.com/v1/breeds')
 
         // Criar slides dinamicamente com os dados da API
         breedsWithImages.forEach(breed => {
-            const imageUrl = `https://cdn2.thecatapi.com/images/${breed.reference_image_id}.jpg`;
+            const imageUrl = `https://cdn2.thecatapi.com/images/${breed.reference
+
+_image_id}.jpg`;
             servicesContainer.innerHTML += `
                 <div class="swiper-slide bg-white p-6 rounded-lg shadow-md">
                     <img src="${imageUrl}" alt="${breed.name}" class="w-full h-40 object-cover rounded-md">
@@ -248,6 +251,19 @@ Esse código faz o seguinte:
 - Atualiza o carrossel de depoimentos com os novos dados obtidos.
 - Caso ocorra um erro, uma mensagem de erro é exibida na seção.
 
+## Visualização Detalhada
+
+### Galeria de Imagens e Vídeos do Projeto
+
+Aqui estão algumas imagens e vídeos do projeto **CatPET** em ação.
+
+| **Imagem 1** | **Imagem 2** | **Imagem 3** |
+| --- | --- | --- |
+| <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image1.jpg" width="200"/> | <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image2.jpg" width="200"/> | <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image3.jpg" width="200"/> |
+
+| **Vídeo 1** | **Vídeo 2** |
+| :---: | :---: |
+| ![GIF 1 - HOME](https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/movie01.gif) | ![GIF 2 - New](https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/movie02.gif) |
 
 ## Seções da Página
 
@@ -265,4 +281,3 @@ Para personalizar o conteúdo:
 - **Imagens**: Substitua as imagens no diretório `images/`.
 - **Texto**: Modifique o conteúdo diretamente no arquivo `index.html`.
 - **Estilo**: Para alterar estilos, você pode editar o arquivo CSS ou modificar as classes utilitárias do **Tailwind CSS** diretamente no HTML.
-
