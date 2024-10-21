@@ -1,7 +1,3 @@
-Aqui está a versão atualizada do `README.md` com a inclusão da explicação sobre o carregamento dinâmico de **Serviços** e **Depoimentos**, além do modelo de visualização de imagens e vídeos:
-
----
-
 # CatPET - Landing Page Moderna
 
 Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa fictícia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
