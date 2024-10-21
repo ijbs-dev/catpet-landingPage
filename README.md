@@ -1,6 +1,6 @@
 # CatPET - Landing Page Moderna
 
-Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
+Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa ficticia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
 
 ## Índice
 
@@ -14,8 +14,6 @@ Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida p
 - [Carregamento Dinâmico de Serviços e Depoimentos](#carregamento-dinâmico-de-serviços-e-depoimentos)
 - [Seções da Página](#seções-da-página)
 - [Customização](#customização)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Visão Geral
 
@@ -52,7 +50,6 @@ catpet-landing-page/
 │   └── script.js           # Scripts JavaScript
 ├── images/
 │   └── [imagens do projeto]# Imagens usadas na página
-├── .gitignore              # Arquivo Git ignore
 └── README.md               # Documentação do projeto
 ```
 
@@ -259,9 +256,7 @@ Esse código faz o seguinte:
 - **Sobre Nós**: Breve apresentação da empresa e seu propósito.
 - **Serviços**: Carrossel que destaca os principais serviços oferecidos.
 - **Testemunhos**: Seção com depoimentos de clientes satisfeitos.
-- **
-
-Contato**: Formulário para enviar mensagens diretamente à empresa, com integração ao EmailJS.
+- **Entre em Contato**: Formulário para enviar mensagens diretamente à empresa, com integração ao EmailJS.
 
 ## Customização
 
