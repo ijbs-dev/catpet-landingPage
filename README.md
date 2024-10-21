@@ -257,13 +257,29 @@ Esse código faz o seguinte:
 
 Aqui estão algumas imagens e vídeos do projeto **CatPET** em ação.
 
-| **Imagem 1** | **Imagem 2** | **Imagem 3** |
-| --- | --- | --- |
-| <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image1.jpg" width="200"/> | <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image2.jpg" width="200"/> | <img src="https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/image3.jpg" width="200"/> |
+ **1) Diretorio Projeto** 
+ 
+ <img src="https://github.com/ijbs-dev/catpet-landingPage/blob/main/images/cat/img02.png">  
+ 
+ **2) Tela de Home**  
 
-| **Vídeo 1** | **Vídeo 2** |
-| :---: | :---: |
-| ![GIF 1 - HOME](https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/movie01.gif) | ![GIF 2 - New](https://github.com/ijbs-dev/catpet-landing-page/raw/main/images/cat/movie02.gif) |
+ <img src="https://github.com/ijbs-dev/catpet-landingPage/raw/main/images/cat/img01.png"> 
+ 
+ **3) Formulario de "Entre em Contato"** 
+ 
+ <img src="https://github.com/ijbs-dev/catpet-landingPage/raw/main/images/cat/img00.png"> 
+
+
+
+ **4) Resumo das Funcionalidades** 
+
+ ![GIF 1 - HOME](https://github.com/ijbs-dev/catpet-landingPage/blob/main/images/cat/movie02.gif)  
+
+
+
+**5) Envio de Email** 
+
+ ![GIF 2 - New](https://github.com/ijbs-dev/catpet-landingPage/blob/main/images/cat/movie01.gif) 
 
 ## Seções da Página
 
