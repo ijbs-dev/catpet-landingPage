@@ -1,8 +1,9 @@
 # CatPET - Landing Page Moderna
+[catpet-landingPage](https://ijbs-dev.github.io/catpet-landingPage/) 
 
-Bem-vindo ao repositório da **CatPET**, uma landing page moderna desenvolvida para uma empresa fictícia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
+Este repositório da **CatPET** é uma landing page moderna desenvolvida para uma empresa fictícia (afim de estudos) que combina tecnologia e o amor por animais de estimação. Esta página foi criada para facilitar a conexão entre clientes e seus novos companheiros de maneira prática e inovadora.
 
-## Índice
+## Índice 
 
 - [Visão Geral](#visão-geral)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
